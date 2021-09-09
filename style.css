@@ -232,19 +232,20 @@ footer{
 
 
 @media (max-width: 768px){
+    
     /*navbar*/
     .navbar{
         width: 100%;
         background-size: cover;
     }
     .navbar-menu{
-        display: block;
+        visibility: hidden;
     }
     /*home*/
     .banner{
-        background-size: cover;
+        object-fit: cover;
         height: auto;
-        width: 100%;
+        width: 138%;
     }
     .banner .content{
         text-align: center;
@@ -284,6 +285,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-size: cover;
     }
     .grp{
         object-fit: cover;
